@@ -23,7 +23,6 @@ object NonTailRecursionExample {
     }
     try {
       nestFunRecursion(3)
-
     }
     catch {
       case e: Exception => e.printStackTrace()
