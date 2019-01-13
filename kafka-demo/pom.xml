@@ -64,7 +64,7 @@
     <!--Spark dependency-->
     <dependency>
       <groupId>org.apache.spark</groupId>
-      <artifactId>spark-streaming_2.11</artifactId>
+      <artifactId>spark-streaming_2.12</artifactId>
       <version>${spark.version}</version>
     </dependency>
 
