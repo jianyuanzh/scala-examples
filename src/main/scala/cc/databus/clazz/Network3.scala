@@ -28,6 +28,6 @@ object Network3 {
     val fred = jianyuan.join("Fred")
     val vincent = defang.join("Vincent")
 
-    fred.contacts += vincent // 这是允许的，因为contacts使用的类型投影Network3#Member的方式
+    fred.contacts += vincent // 这是允许的，因为contacts使用的类型投影Network3#Member的方式，表示任何对象的Member
   }
 }
